@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1000,
+        "name": "Kumara K552",
+        "description": "El Dragonborn es un teclado mecánico 60%, compacto, robusto y súper transportable, con prestaciones óptimas para el juego competitivo de alto nivel: switches Redragon Brown, tecla Fn, bloqueo de tecla de Windows, cable desmontable y la mejor calidad de construcción.",
+        "image_url": "https://redragon.es/content/uploads/2021/07/DRAGONBORN.png",
+        "price": 5200
+    },
+    {
+        "id": 1001,
+        "name": "SHIVA K512",
+        "description": "La cantidad de prestaciones que ofrece el Shiva es asombrosa: prácticamente todo lo que presumen los teclados mecánicos tope de gama, el Shiva lo tiene también.",
+        "image_url": "https://redragon.es/content/uploads/2021/04/SHIVA.png",
+        "price": 3500
+    },
+    {
+        "id": 1002,
+        "name": "DITI K585",
+        "description": "Teclado mecánico one-handed, con teclas macro dedicadas, USB pass-through, cable y reposamuñecas desmontables, RGB configurable en memoria interna y un diseño ergonómico único. Un teclado estrictamente para gamers.",
+        "image_url": "https://redragon.es/content/uploads/2021/04/DITI.png",
+        "price": 5000
+    },
+    {
+        "id": 1002,
+        "name": "DRACONIC K530",
+        "description": "Bacán, buenardo, chido, chulo, copado, fachero, molón, pintón; ¿cómo decirlo? El Draconic tiene un encanto especial. Es un teclado mecánico 60% dual mode: se puede usar en modo inalámbrico o conectado por cable USB-C. Y, además de bonito, es una bestia competitiva.",
+        "image_url": "https://redragon.es/content/uploads/2021/03/DRACONIC.png",
+        "price": 6900
+    }
+]
