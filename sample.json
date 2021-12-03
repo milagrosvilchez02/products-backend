@@ -1,4 +1,4 @@
-[
+[    
     {
         "id": 1000,
         "name": "Kumara K552",
@@ -21,10 +21,17 @@
         "price": 5000
     },
     {
-        "id": 1002,
+        "id": 1003,
         "name": "DRACONIC K530",
         "description": "Bacán, buenardo, chido, chulo, copado, fachero, molón, pintón; ¿cómo decirlo? El Draconic tiene un encanto especial. Es un teclado mecánico 60% dual mode: se puede usar en modo inalámbrico o conectado por cable USB-C. Y, además de bonito, es una bestia competitiva.",
         "image_url": "https://redragon.es/content/uploads/2021/03/DRACONIC.png",
         "price": 6900
+    },
+    {
+        "id": 1004,
+        "name": "MAGIC WAND PRO K587PRO",
+        "description": "Elegancia incomparable. La estructura del Magic Wand tiene una altura de sólo 2,8 cm (en comparación, el Kumara tiene 4,3 cm). Un rasgo que le aporta mucho estilo a este TKL premium.",
+        "image_url": "https://redragon.es/content/uploads/2021/04/PRO-MAGIC-WAND.png",
+        "price": 1500
     }
 ]

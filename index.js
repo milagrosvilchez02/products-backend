@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const morgan = require("morgan");
 const app = express();
 
@@ -9,7 +10,14 @@ app.set("json spaces", 2);
 // middlewares
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
+app.use(
+  cors({
+    origin:
+      "http://myreactapp-productsapp-milagros.s3-website-us-east-1.amazonaws.com/",
+  })
+);
+
+//
 
 // route settings
 require("./startup/routes")(app);

@@ -22,13 +22,14 @@ router.post("/", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-  const editedProduct = req.body;
+  let index = 0;
   let found = false;
-  for (var i = 0; i < products.length; i++) {
-    if (products[i].id == req.params.id) {
-      products[i] = editedProduct;
+  while (!found) {
+    if (products[index].id == req.params.id) {
+      products[index] = req.body;
       found = true;
     }
+    index++;
   }
   !found
     ? res.status(404).json({ error: "ID not found." })
@@ -38,7 +39,7 @@ router.put("/:id", (req, res) => {
 router.delete("/:id", (req, res) => {
   const index = products.findIndex((product) => product.id == req.params.id);
 
-  if (index === -1) return res.status(404).json({ error: " ID not found" });
+  if (index === -1) return res.status(404).json({ error: "ID not found" });
   products.splice(index, 1);
 
   res.json(products);
